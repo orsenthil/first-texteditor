@@ -5,14 +5,12 @@
 
 A very simple text editor written in Python with tkinter module.
 
-## Installation
+## Usage
 
 ```bash
-git clone https://github.com/USERNAME/texteditor.git
+git clone https://github.com/orsenthil/first-texteditor.git
 cd texteditor
 ```
-
-## Usage
 
 ```bash
 python main.py
