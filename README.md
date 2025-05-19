@@ -1,8 +1,18 @@
 # Text Editor
 
+[![Python Tests](https://github.com/orsenthil/first-texteditor/actions/workflows/python-tests.yml/badge.svg)](https://github.com/orsenthil/first-texteditor/actions/workflows/python-tests.yml)
+[![codecov](https://codecov.io/gh/orsenthil/first-texteditor/branch/main/graph/badge.svg)](https://codecov.io/gh/orsenthil/first-texteditor)
+
 A very simple text editor written in Python with tkinter module.
 
-## Run it
+## Installation
+
+```bash
+git clone https://github.com/USERNAME/texteditor.git
+cd texteditor
+```
+
+## Usage
 
 ```bash
 python main.py
