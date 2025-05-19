@@ -26,11 +26,11 @@ jobs:
         # Install any dependencies needed for testing
         # pip install -r requirements.txt
         
-    - name: Install tk
+    - name: Install tk and Xvfb
       run: |
         sudo apt-get update
-        sudo apt-get install -y python3-tk
+        sudo apt-get install -y python3-tk xvfb
         
-    - name: Run tests
+    - name: Run tests with Xvfb
       run: |
-        python -m unittest discover 
+        xvfb-run --auto-servernum python -m unittest discover 
